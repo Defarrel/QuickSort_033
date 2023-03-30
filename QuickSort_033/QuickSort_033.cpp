@@ -73,3 +73,18 @@ void q_short(int low, int high) {
 
 }
 
+void display() {
+	cout << "\n========================" << endl;
+	cout << "Array yang sudah tersusun" << endl;
+	cout << "\n========================" << endl;
+
+	for (int i = 0; i < n; i++) {
+		cout << arr[i] << " ";
+	}
+
+	cout << "\n\nPerbandingan nomor: " << cmp_count << endl;
+	cout << "Perpindahan data" << mov_count << endl;
+}
+
+
+
