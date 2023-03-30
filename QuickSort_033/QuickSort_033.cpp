@@ -83,7 +83,7 @@ void display() {
 	}
 
 	cout << "\n\nPerbandingan nomor: " << cmp_count << endl;
-	cout << "Perpindahan data" << mov_count << endl;
+	cout << "Perpindahan data: " << mov_count << endl;
 }
 
 int main() {
