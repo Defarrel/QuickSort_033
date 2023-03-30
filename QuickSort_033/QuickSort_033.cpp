@@ -86,5 +86,10 @@ void display() {
 	cout << "Perpindahan data" << mov_count << endl;
 }
 
+int main() {
+	input();
+	display();
+	return 0;
+}
 
 
